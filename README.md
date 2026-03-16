@@ -52,6 +52,18 @@ You can also execute the files in this order:
 
 External reference data for the normalized TSE-related tables was originally based on publicly available Costa Rican electoral registry sources. This public repository includes only the database structure and sample records for demonstration purposes.
 
+
+## Dataset Notice
+
+To run the complete database workflow, the following files must be downloaded manually:
+
+- The **complete electoral registry dataset** from the official TSE website
+- The **telephone datasets** used for data integration
+
+The files included in this repository are **small samples intended only to demonstrate the functionality of the SQL scripts and database design**.
+
+If the full datasets are not loaded into the database before running the SQL scripts, some procedures and queries may not function as expected.
+
 ## Database Architecture
 
 ### Final ER Diagram
