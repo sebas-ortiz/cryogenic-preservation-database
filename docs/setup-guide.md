@@ -45,8 +45,8 @@ Recommended table names:
 
 | CSV File | Table Name |
 |------|------|
-| PADRON_COMPLETO_sample.csv | PADRON_COMPLETO |
-| distelec.csv | distelec |
+| PADRON_COMPLETO.txt | PADRON_COMPLETO |
+| distelec.txt | distelec |
 | phones1_sample.csv | phones1 |
 | phones2_sample.csv | phones2 |
 | phones3_sample.csv | phones3 |
