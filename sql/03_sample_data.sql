@@ -1,3 +1,10 @@
+-- NOTE:
+-- The scripts in this repository assume that the tables "Padron_Completo"
+-- and "Distelec" from the TSE Electoral Registry, along with the four
+-- phone tables (each imported from a separate CSV file), are already
+-- loaded in the database. If these datasets are not preloaded, some
+-- scripts may fail during execution.
+
 INSERT INTO dbo.Telefonos_General (Telefono, Cedula, Nombre_Cliente)
 VALUES
 ('8888-0001', '101000001', 'Carlos Ramirez'),
