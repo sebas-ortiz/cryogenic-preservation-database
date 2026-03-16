@@ -56,12 +56,14 @@ External reference data for the normalized TSE-related tables was originally bas
 
 ### Final ER Diagram
 
-![Final ER Diagram](images/er_diagram_final.jpg)
-
-### Normalized TSE Schema
-
-![TSE Normalized Schema](images/tse_normalized_schema.jpg)
-
 ### Auxiliary Tables
 
-![Auxiliary Tables](images/auxiliary_tables.jpg)
+![Auxiliary Tables](diagrams/auxiliary-tables-diagram.png)
+
+### TSE Normalized Schema
+
+![TSE Schema](diagrams/tse-normalized-diagram.png)
+
+### Cryogenics System Schema
+
+![Database Diagram](diagrams/database-diagram.png)
