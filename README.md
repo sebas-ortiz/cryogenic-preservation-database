@@ -1,6 +1,6 @@
 # Cryogenic Preservation Database
 
-SQL Server relational database design for managing cryogenic preservation operations, monitoring, auditing and incident management.
+SQL Server relational database design for managing cryogenic preservation operations, monitoring, auditing, and incident management.
 
 ## Overview
 
@@ -30,8 +30,9 @@ The repository is organized to make the project easy to understand and easy to e
 ## Repository Structure
 
 - `sql/` → executable SQL scripts
-- `docs/` → documentation
-- `images/` → ER diagrams and supporting schema images
+- `docs/` → project documentation
+- `diagrams/` → ER diagrams and supporting schema images
+- `data/` → reduced sample CSV files for testing and demonstration
 
 ## Quick Start
 
@@ -52,7 +53,6 @@ You can also execute the files in this order:
 
 External reference data for the normalized TSE-related tables was originally based on publicly available Costa Rican electoral registry sources. This public repository includes only the database structure and sample records for demonstration purposes.
 
-
 ## Dataset Notice
 
 To run the complete database workflow, the following files must be downloaded manually:
@@ -60,13 +60,22 @@ To run the complete database workflow, the following files must be downloaded ma
 - The **complete electoral registry dataset** from the official TSE website
 - The **telephone datasets** used for data integration
 
-The files included in this repository are **small samples intended only to demonstrate the functionality of the SQL scripts and database design**.
+The files included in this repository are **reduced samples intended only to demonstrate the functionality of the SQL scripts and database design**.
 
 If the full datasets are not loaded into the database before running the SQL scripts, some procedures and queries may not function as expected.
+
+## Documentation
+
+Additional project documentation is available in the `docs/` folder:
+
+- `docs/setup-guide.md`
+- `docs/data-dictionary.md`
 
 ## Database Architecture
 
 ### Final ER Diagram
+
+![Final ER Diagram](diagrams/database-diagram.png)
 
 ### Auxiliary Tables
 
@@ -78,4 +87,17 @@ If the full datasets are not loaded into the database before running the SQL scr
 
 ### Cryogenics System Schema
 
-![Database Diagram](diagrams/database-diagram.png)
+![Cryogenics System Schema](diagrams/project-final-diagram.png)
+
+## Features
+
+- normalized relational database design
+- stored procedures for table creation and data loading
+- triggers for validation and audit logging
+- views for filtered querying
+- integration with external public data sources
+- documentation for setup and schema understanding
+
+## Disclaimer
+
+This repository is intended for academic and portfolio purposes. Public source data referenced in this project belongs to its respective official providers. Reduced sample files are included only to demonstrate database structure and script execution.
