@@ -85,10 +85,6 @@ Additional project documentation is available in the `docs/` folder:
 
 ![TSE Schema](diagrams/tse-normalized-diagram.png)
 
-### Cryogenics System Schema
-
-![Cryogenics System Schema](diagrams/project-final-diagram.png)
-
 ## Features
 
 - normalized relational database design
