@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# SQL Server / temp / backups
+*.bak
+*.trn
+*.log
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# Exported data
+*.csv.tmp
+*.tmp
+
+# Zip files
+*.zip
+*.rar
+*.7z
